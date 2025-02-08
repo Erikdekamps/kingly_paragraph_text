@@ -1,0 +1,11 @@
+{
+    "name": "erikdekamps/kingly_paragraph_text",
+    "description": "A Drupal recipe that configures a Kingly text paragraph.",
+    "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": ">=10.4",
+        "drupal/layout_paragraphs": "^2.1"
+    }
+}

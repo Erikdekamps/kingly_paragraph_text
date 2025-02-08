@@ -1,0 +1,10 @@
+name: 'Kingly page'
+type: 'Site'
+description: Configures a Kingly text paragraph.
+
+install:
+  - paragraphs
+  - layout_paragraphs
+
+config:
+  strict: false

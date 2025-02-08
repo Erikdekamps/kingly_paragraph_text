@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.kingly_paragraph_text.field_kingly_text
+    - paragraphs.paragraphs_type.kingly_paragraph_text
+  module:
+    - text
+id: paragraph.kingly_paragraph_text.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_text
+mode: default
+content:
+  field_kingly_text:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

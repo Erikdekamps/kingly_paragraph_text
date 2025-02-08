@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_kingly_text
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.kingly_paragraph_text
+  module:
+    - text
+id: paragraph.kingly_paragraph_text.field_kingly_text
+field_name: field_kingly_text
+entity_type: paragraph
+bundle: kingly_paragraph_text
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long
