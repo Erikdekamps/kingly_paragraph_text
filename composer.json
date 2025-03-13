@@ -6,6 +6,8 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "drupal/core": ">=10.4",
-        "drupal/layout_paragraphs": "^2.1"
+        "drupal/layout_paragraphs": "^2.1",
+        "erikdekamps/kingly_page": "dev-main",
+        "erikdekamps/kingly_sdc": "dev-main"
     }
 }
