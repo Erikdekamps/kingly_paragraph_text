@@ -5,6 +5,7 @@ description: Configures a Kingly text paragraph.
 install:
   - paragraphs
   - layout_paragraphs
+  - pathauto
 
 config:
   strict: false
