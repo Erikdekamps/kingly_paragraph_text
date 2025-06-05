@@ -1,6 +1,8 @@
 name: 'Kingly page'
 type: 'Site'
 description: Configures a Kingly text paragraph.
+recipes:
+  - core/recipes/basic_html_format_editor
 
 install:
   - paragraphs
