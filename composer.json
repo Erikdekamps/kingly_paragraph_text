@@ -7,7 +7,6 @@
     "require": {
         "drupal/core": "^10.3 || ^11",
         "drupal/layout_paragraphs": "^2.1",
-        "erikdekamps/kingly_page": "dev-main",
         "erikdekamps/kingly_sdc": "dev-main"
     }
 }
