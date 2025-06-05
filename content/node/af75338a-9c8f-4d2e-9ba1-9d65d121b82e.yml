@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: af75338a-9c8f-4d2e-9ba1-9d65d121b82e
+  bundle: kingly_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1749046408
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /home
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8e94e635-f726-4ed1-8d70-ce93d9cbcd39
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1749046510
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus odio, condimentum non bibendum sit amet, rhoncus eu magna. Nunc scelerisque efficitur turpis pellentesque hendrerit. Pellentesque hendrerit dictum tristique. Integer maximus dolor at eros elementum, eu consequat mi tristique. Donec viverra nibh magna, ac posuere ante sollicitudin vel. Aenean imperdiet aliquet mauris. Curabitur sit amet tincidunt magna. Proin quis viverra magna. Nulla elementum, eros et aliquet tempus, purus nulla lobortis lectus, vel lobortis eros mi ac felis. Praesent tempus luctus dignissim. Curabitur libero magna, vehicula sed ligula pharetra, varius vehicula velit.</p>'
+              format: basic_html
